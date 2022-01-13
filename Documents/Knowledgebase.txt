@@ -1,0 +1,1 @@
+- "Allgemeiner Fehler in GDI+" - Tritt auf wenn man ein Image als JPEG Encodiert oder bearbeitet und dann als Image wieder einer Picturebox zuweist. Lösung: new Bitmap(IMAGE) verwenden.
