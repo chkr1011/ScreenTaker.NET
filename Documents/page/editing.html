@@ -1,0 +1,86 @@
+﻿<?
+include("../functions.php");
+showHead();
+?>
+
+		<div id="index">
+			<h2>Inhaltsverzeichnis</h2>
+			<ul>
+				<li>
+					<a href="index.html#intro" title="Einführung">Einführung</a>
+				</li>
+				<li>
+					<a href="main.html#handling" title="handling">Betrieb</a>
+					<ul>
+						<li><a href="editing.html" title="Bearbeitungsfenster">Bearbeitungsfenster</a></li>
+						<li><a href="qualitywizard.html" title="Qualitätseinstellungsfenster">Qualitätseinstellungsfenster</a></li>
+						<li><a href="uploader.html" title="Uploadfenster">Uploadfenster</a></li>
+						<li><a href="history.html" title="Verlaufsfenster">Verlaufsfenster</a></li>
+						<li><a href="config.html" title="Einstellungsfenster">Einstellungsfenster</a></li>
+					</ul>
+				</li>
+				<li><a href="glossary.html" title="Glossar">Glossar</a></li>
+				<li><a href="impressum.html" title="Impressum">Impressum</a></li>
+			</ul>
+		</div>
+		<div id="container">
+			<h1><a id="config"></a>Bearbeitungsfenster</h1>
+			<div id="content">
+				<p>Nachdem Sie ein Screenshot mit einer Methode Ihrer Wahl erstellt haben, taucht folgendes Bearbeitungsfenster auf.</p>
+				<div class="image" style="width:559px;">
+					<img alt="Bearbeitungsfenster" src="img/editwindow.png"/><em>Abbildung 5: Bearbeitungsfenster</em>
+				</div>
+				
+				<p>Sämtliche Operationen befinden sich in der Toolbar. Hier ihre Funktionen in der entsprechenden Reihenfolge.</p>
+				<dl>
+					<dt>Screenshot drucken</dt>
+					<dd>Öffnet das Druckvorschaufenster, wo Sie anschließend das Bild ausdrucken können. Sollten Sie mehr als einen Drucker besitzen, wird Ihnen erst eine Liste Ihrer Drucker angezeigt, in der Sie sich für einen entscheiden müssen.</dd>
+					<dt>In Zwischenablage kopieren</dt>
+					<dd>Kopiert das zu sehende Bild in die Zwischenablage und schließt anschließend das Bearbeitungsfenster.</dd>
+					<dt>Speichern als ...</dt>
+					<dd>Öffnet den <em>Speichern unter Dialog</em>, in dem Sie sich für einen Speicherort und Dateiformat entscheiden können.</dd>
+					<dt>Verlauf</dt>
+					<dd>Öffnet das <a href="history.html" title="Verlaufsfenster">Verlaufsfenster</a></dd>
+					<dt>Upload</dt>
+					<dd>Hierbei wird die Datei mit dem eingetragenen Namen an den Hostingdienst Ihrer Wahl hochgeladen. Darauf hin erscheint das <a href="uploader.html" title="Uploadfenster">Uploadfenster</a>.</dd>
+					<dt>Direktes Speichern</dt>
+					<dd>Bei PNG, JPG, BMP wird die Datei im jeweiligen Format im Screenshotverzeichnis gespeichert.</dd>
+					<dt>Ausgangsbild wiederherstellen</dt>
+					<dd>Stellt den ursprunglichen Screenshot wieder her. Dabei gehen sämtliche Veränderungen verloren.</dd>
+					<dt>Screenshot vergrößern</dt>
+					<dd>Hierbei wird das zusehende Bild vergrößert.</dd>
+					<dt>Zurücksetzen auf Ausgangsgröße</dt>
+					<dd>Hierbei wird das Bild auf seine Ausgangsgröße zurückgesetzt.</dd>
+					<dt>Screenshot verkleinern</dt>
+					<dd>Hierbei wird das zusehende Bild verkleinert.</dd>
+					<dt>Re-Capture</dt>
+					<dd>Es öffnet sich das trübe Auswahlfenster mit dem Sie das aktuelle Bild weiter beschneiden können.</dd>
+					<dt>Qualitätseinstellungen</dt>
+					<dd>Es öffnet sich das <a href="qualitywizard" title="Qualitätseinstellungsfenster">Qualitätseinstellungsfenster</a>.</dd>
+					<dt>Mit externem Programm bearbeiten</dt>
+					<dd>Das aktuelle Bild wird mit dem unter Einstellungen eingetragene Bildbearbeitungsprogramm geöffnet. Nachdem Sie das Bildbearbeitungsprogramm geschlossen haben, wird anschließend das aktualisierte Bild angezeigt.</dd>
+					<dt>Color Picker</dt>
+					<dd>Der Color Picker ermöglicht Ihnen Farbwerte eines bestimmten Bildpunktes anzeigen zu lassen. Die gewonnen Farbinformationen können Sie in anderen Programmen wiederverwenden. <acronym title="Beispielsweise">Bspw.</acronym> sehr praktisch beim Webdesign und einer entsprechenden <acronym title="Cascading Style Sheets">CSS</acronym>-Datei.</dd>
+					<dt>Linie</dt>
+					<dd>Diese Funktionalität ermöglicht es Ihnen Linien in das Bild einzufügen. Dadurch können Sie bestimmte Bereiche unterstreichen und hervorzuheben.</dd>
+					<dt>Rechteck</dt>
+					<dd>Ähnlich wie die Linie können Sie hier Rechtecke einfügen um bestimmte Bereiche hervorzuheben.</dd>
+					<dt>Einstellungen</dt>
+					<dd>Öffnet das Einstellungsfenster. Siehe <a href="config.html" title="Einstellungsfenster">Einstellungsfenster</a>.</dd>
+					<dt>Hilfe</dt>
+					<dd>Hier gelangen Sie zu der Online-Dokumention.</dd>
+					<dt>Info</dt>
+					<dd>
+						Öffnet das Informationsfenster, welches unter anderem die Updatefunktion beeinhaltet, mit der Sie nach einer neuen Version von Screentaker.NET suchen können.
+						<div class="image" style="width:452px">
+							<img alt="About Fenster" src="img/about.png"/><em>Abbildung 3: "Info über"</em>
+						</div>
+					</dd>
+					<dt>Statusleiste</dt>
+					<dd>In der Statusleiste sehen Sie einige Informationen, wie die Höhe, Breite oder die aktuellen Mauskoordinaten des aktuellen Bildes.</dd>
+				</dl>
+			</div>
+		</div>
+		<? showFoot(); ?>
+	</body>
+</html>

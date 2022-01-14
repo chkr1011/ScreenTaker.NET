@@ -1,0 +1,382 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CE96F2FC-0110-43EA-966B-533C3574B021}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Screentaker</RootNamespace>
+    <AssemblyName>ST_API</AssemblyName>
+    <ApplicationIcon>
+    </ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <PublishUrl>http://localhost/Screentaker .NET/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.1.0.0</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <FileAlignment>4096</FileAlignment>
+    <DocumentationFile>
+    </DocumentationFile>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <NoStdLib>false</NoStdLib>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\_Deploy\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>none</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <DocumentationFile>
+    </DocumentationFile>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <NoStdLib>false</NoStdLib>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ArgumentHandling.cs" />
+    <Compile Include="EmbeddedResources.cs" />
+    <Compile Include="ExceptionHandler.cs" />
+    <Compile Include="Forms\FormCaptured.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormCaptured.Designer.cs">
+      <DependentUpon>FormCaptured.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormColorPicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormColorPicker.Designer.cs">
+      <DependentUpon>FormColorPicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormControlSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormControlSelector.Designer.cs">
+      <DependentUpon>FormControlSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormSettings.Designer.cs">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHistory.Designer.cs">
+      <DependentUpon>FormHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormHotkeyGrabber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormHotkeyGrabber.Designer.cs">
+      <DependentUpon>FormHotkeyGrabber.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormQualityWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormQualityWizard.Designer.cs">
+      <DependentUpon>FormQualityWizard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormScreenSelector.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormScreenSelector.designer.cs">
+      <DependentUpon>FormScreenSelector.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUpdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUpdate.Designer.cs">
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormUploadResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormUploadResult.Designer.cs">
+      <DependentUpon>FormUploadResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Generators.cs" />
+    <Compile Include="History.cs" />
+    <Compile Include="HotkeyHandling.cs" />
+    <Compile Include="ImageGrabbing.cs" />
+    <Compile Include="ImageProcessing.cs" />
+    <Compile Include="Messages.cs" />
+    <Compile Include="OSIntegration.cs" />
+    <Compile Include="Printing.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Forms\STForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\STForm.Designer.cs">
+      <DependentUpon>STForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="STSystem.cs" />
+    <Compile Include="Uploading.cs" />
+    <Compile Include="WindowHighlighter.cs" />
+    <EmbeddedResource Include="Forms\FormCaptured.resx">
+      <DependentUpon>FormCaptured.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormColorPicker.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FormColorPicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormControlSelector.resx">
+      <DependentUpon>FormControlSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormSettings.resx">
+      <DependentUpon>FormSettings.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHistory.resx">
+      <DependentUpon>FormHistory.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormHotkeyGrabber.resx">
+      <DependentUpon>FormHotkeyGrabber.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormQualityWizard.resx">
+      <DependentUpon>FormQualityWizard.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormScreenSelector.resx">
+      <DependentUpon>FormScreenSelector.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUpdate.resx">
+      <DependentUpon>FormUpdate.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormUploadResult.resx">
+      <DependentUpon>FormUploadResult.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\STForm.resx">
+      <DependentUpon>STForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{F36244F3-335A-470B-A883-857601FCA509}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PropertyFile\PropertyFile.csproj">
+      <Project>{A2922C33-0334-4B18-AAE8-48C535C930DD}</Project>
+      <Name>PropertyFile</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Uploader\Uploader.csproj">
+      <Project>{6A7756D3-D30C-4533-A3FA-711734FC6520}</Project>
+      <Name>Uploader</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Win32\Win32API.csproj">
+      <Project>{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}</Project>
+      <Name>Win32API</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NewDocumentHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Book_openHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PublishToWebHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PropertiesHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DonationHS_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saveHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PrintHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CopyHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\st_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileBMP_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileJPG_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FilePNG_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FileTIF_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WebInsertHyperlinkHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DeleteFolderHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LineToolIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cross.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ColorPickerl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_handles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\picture_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\font.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bricks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zoom_out.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resultset_first.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\camera_go.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\star.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OptionsHS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Selector.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Selector_With.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\Selector_Without.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\AreaSelector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\OpenFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\ControlSelector.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,228 @@
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                                                                                                             //
+// Screentaker .NET                                                                                            //
+// Release Notes                       																		   //
+//                                                                                                             //
+// Legende:                                                                                                    //
+// [FIX] Behobener Fehler                                                                                      //
+// [ADD] Neue Funktion/Eigenschaft                                                                             //
+// [UPD] Veränderte/Erweiterte Funktion                                                                        //
+// [REM] Entfernte Funktion/Objekt                                                                             //
+// [NOT] Notiz, Hinweis                                                                                        //
+//                                                                                                 		       //
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Version			1.2.0.60
+Releasedatum:	00.00.2007
+
+[001][FIX] Der ControlSelector befindet sich nun nicht mehr im Vorderund wenn der Screenshot angefertigt wird
+[002][FIX] Es ist nun möglich für Screentaker.NET zu spenden! Also los! los! los! ;-)
+[003][UPD] Tabs werden nun mit der mittleren Maustaste geschlossen
+[004][FIX] Der Upload zur neuen Version von DirectUpload funktioniert nun
+[005][ADD] Der Verlauf verfügt nun nicht mehr über den oberen Ansichtsbereich. Daher gibt es nun aber eine Preview falls mit der Maus über den Screenshot gefahren wird
+[006][FIX] Falls das Bearbeitungsfenster minimiert sein sollte wir es nun automatisch wieder angezeigt fall ein neuer Screeshot angefertigt wird
+[007][FIX] Die Prüfung auf ein Update geschieht nun durch einen extra Thread. Dadurch ist die Anwendung nicht länger beim Programmstart blockiert
+[008][UPD] Die Updateinformationen werden nicht mehr über eine XML-Datei bezogen. Daher ist der Speicherverbrauch deutlich gesunken
+[009][UPD] Durch diverse Optimierungen den Speicherverbrauch von ca. 12 MB auf ca. 5 MB reduziert. Je nach Einstellungen auch ca. 4 MB möglich
+[010][UPD] Aussehen und Verhalten des Updaters angepasst
+[011][FIX] Problem mit seltsamen Effekten beim schließen mancher Fenster behoben
+[012][UPD] Diverse optische Anpassungen
+[013][ 
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Verion:			1.2.0.5
+Releasedatum:	00.00.2007
+
+[001][ADD] FTP-Upload steht nun zur Verfügung
+[002][FIX] Der Auswahlbereich öffnet sich nun über alle Monitore
+[003][UPD] Diverse optische Anpassungen
+[004][UPD] Links und E-Mail-Adressen aktualisiert
+[005][UPD] Verhalten des Rechteck-Tools und des Linien-Tools angepasst
+[006][UPD] Speicherverbrauch minimal verbessert
+[007][FIX] Das Format für den Upload wird nun angewandt
+[008][ADD] Es kann nun konfiguriert werden das die Größe des Auswahlbereichs angezeigt wird
+[009][UPD] Nachdem das Screenshotfenster geöffnet wurde wird automatisch der Fokus auf das Dateinamensfeld gelegt
+[010][FIX] Das Info-Fenster schließt sich nun nicht mehr automatisch nach einem Klick auf einen Button
+[011][FIX] Probleme mit FTP-Upload behoben
+[013][FIX] Der kopierte Text im Uploadfenster kann nun mit einem Rechtsklick in die Zwischenablage kopiert werden
+[014][FIX] Das Auswahlfenster kann nun nur noch 1 mal gleichzeitig angezeigt werden
+[015][FIX] Ein Screenshot vom gesamten Desktop erfasst nun alle Monitore
+[016][FIX] Imagedateien werden nun vom Upload nach dem Upload nicht länger blockiert
+[017][FIX] Der Screenshot wird in der PictureBoxEx nicht mehr unter bestimmten Umständen verschoben so dass er verschwindet
+[018][FIX] Bei den Qualitätseinstellungen bleibt das neue Image nun an der zuvor ausgesuchten Stelle stehen
+[019][ADD] Screenshots werden nun in Tabs angezeigt
+[020][ADD] Die Titel der Tabs tragen eindeutige Namen über der Screenshot identifiziert werden kann
+[021][ADD] Für jedes Imagecontrol steht nun ein Kontextmenü zur Verfügung mit dem diverse Aktionen ausgeführt werden können die nicht in der Toolbar aufgeführt sind
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Verion:			1.1.0.41 (Final!)
+Releasedatum:	06. Juli 2007
+
+[001][FIX] Probleme im Zusammenhang mit Datei-Öffnen/Speichern-Dialogen behoben (Einstellungen etc.)
+[002][UPD] Diverse kleine optische Anpassungen
+[003][FIX] Der ST konnte nicht mit einem geöffneten Fenster geschlossen werden (Exception!)
+[004][UPD] Wenn Einstellungen verändert werden, werden abhängige Einstellungen automatisch ausgegraut
+[005][ADD] Die Icons im Traymenü können nun auf Wunsch ausgeschaltet werden
+[006][UPD] Diverse Icons ersetzt
+[007][ADD] Rechteck-Tool hinzugefügt (Einfügen von roten Rechtecken in den Screenshot um Bereiche hervorzuheben)
+[008][ADD] Linien-Tool hinzugefügt (Einfügen von roten Linien in den Screenshot um Bereiche hervorzuheben)
+[009][ADD] Es kann nun ein Hotkey konfiguriert werden mit dessen Hilfe der Uploader aufgerufen werden kann
+[010][FIX] Bei Screenshots von maximierten Fenstern wurde ein schwarzer Rand angezeigt und ein Teil der Taskbar
+[011][FIX] Die PictureBoxEx im Bearbeitungsfenster war etwas ausserhalb des Fensters positioniert
+[012][FIX] Falls der Verlauf über das Traymenü geöffnet wurde kam es zu einem Fehler wenn man einen Screenshot öffnete und ihn dann wieder schließen wollte
+[013][ADD] ST kann nun als Portable-App genutzt werden (ein Profil für alle Nutzer einstellbar)
+[014][UPD] Wichtige Links und EInstellungen werden nun benutzerunabhängig in einer weiteren Einstellungsdatei gespeichert
+[015][ADD] Im Tray gibt es nun einen Button mit dem beliebige Bilddateien geöffnet werden können
+[016][UPD] Die Benutzerspezifische Einstellungsdatei wir ab sofort in Anwendungsdaten-Verzeichnis des jeweiligen Benutzers gespeichert
+[017][UPD] Die Links zur Online-Doku und der Update-Datei werden nun beim Update ebenfalls aktualisiert
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Version:		1.1.0.37 (Release Candidate 2)
+Releasedatum:	03. Juli 2007
+
+[001][FIX] Kleinere Änderungen an der GUI (Rechschreibfehler, Formulierungen etc.)
+[002][FIX] Kleine Codeoptimierungen
+[003][ADD] Menüeintrag hinzugefügt mit dem Screenshots von der Festplatte geöffnet werden können
+[004][FIX] Der ST erfasst nun auch Transparente Fenster
+[005][UPD] Erkennung auf bereits laufenden ST verbessert
+[006][FIX] Dateiname ist nun ohne Leerzeichen (Grund wird in einer der weiteren großen Versionen bekannt werden! ;-))
+[007][UPD] Die Hotkeys werden nun mit "Windows-Standard" vorbelegt
+[008][FIX] Problem im Zusammenhang mit nich vorhandenen Druckern gelöst
+[009][FIX] Wenn der Upload fehlgeschlagen ist war der "Kopieren-Button" dennoch aktiv. Jetzt ist er nur bei einem erfolgreichen Upload verfügbar.
+[010][FIX] Der ST wurde fälschlicherweise in der Alt+Tab-Liste aufgeführt
+[011][FIX] Zurückgekehrten History-Bug behoben! DEFINITIV!
+[012][FIX] Die History wurde immer nach ändern diverser Einstellungen gelöscht
+[013][ADD] Es kann nun konfiguriert werden in welchem Format die Images hochgeladen werden
+[014][ADD] Es kann nun konfiguriert werden in welchem Format die Screenshots automatisch gespeichert werden sollen
+[015][FIX] Die Qualitätseinstellungen für das autospeichern wurde nicht angewendet
+[016][ADD] !! Es steht nun die erste ST-API zur Verfügung mit der auch andere (.NET 2.0) Anwendungen alle Funktionen des ST nuzten können
+[017][FIX] Größe der Programmdatei halbiert (durch besseres Image-Management)
+[018][UPD] Color Picker überarbeitet
+[019][UPD] Die Einstellungen werden nun in einem INI-Ähnlichen Format gespeichert um den Ramverbrauch zu reduzieren
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Version:		1.1.0.32 (Release Candidate 1)
+Releasedatum:	26. Juni 2007
+
+[001][FIX] Im Infofenster wird nun die vollständige Version angezeigt
+[002][FIX] Im Bearbeitungsfenster wird nun angezeigt wenn die Informationen in der Statusbar nicht verfügbar sind
+[003][FIX] Problem im Zusammenhang mit der Verlausfsfunktion
+[004][FIX] Problem im Zusammenhang mit einem nicht vorhandenen Screenshotverzeichnis behoben
+[005][ADD] Dateifilter im Uploader aktualisiert/erweitert
+[006][FIX] Es können nun keine andere Dateien als gültige Bilddateien über den Uploader hochgeladen werden
+[007][FIX] Automatisches Update wurde trotz deaktiviert beim jedem Start durchgeführt
+[008][UPD] Im Bearbeitungsfenster steht nun nur noch ein Button für die spezifische Hilfe zur Verfügung
+[009][ADD] Im Bearbeitungsfenster steht nun ein Button zur Vefügung der das Info-Fenster öffnet
+[010][UPD] Intern Methoden etc. überarbeitet, ausgelagert etc.
+[011][FIX] Ein Screenshot kann nun erneut gecaptured (verfeinert) werden
+[012][ADD] In jedem Fenster kann nun eine Hilfe aufgerufen werden die dann Infos zu dem jeweiligen Fenster anzeigt
+[013][UPD] Diverse optische Anpassungen
+[014][ADD] Jede Hilfe kann auch über F1 angezeigt werden
+[015][UPD] Hotkey-Grabber überarbeitet
+[016][UPD] Einstellungsdialog überarbeitet und neu strukturiert
+[017][ADD] Automatisch gespeicherte Screenshots können nun auch automatisch als komprimiertes JPG mit beliebiger Qualität gespeichert werden
+[018][UPD] Screenshots können nun auf jedem am PC eingerichteten Drucker gedruckt werden
+[019][UPD] Diverse Standardeinstellungen überarbeitet
+[020][FIX] Der aktuelle Hotkey wird nun auch automatisch im Hotkey-Grabber angezeigt
+[021][FIX] ST erkennt nun alte Konfigurationsdateien und löscht diese automatisch (gibt auch noch einen Hinweis aus)
+[022][UPD] ST ist nun in der Lage alte Einstellungen zu migrieren. Dabei werden neue Einstellungen mit dem Default-Wert übernommen
+[023][FIX] Probleme im Zusammenhang mit dem Cache-Verzeichnis behoben
+[024][FIX] Wenn die History geleert wird, werden umgehend auch alle physikalsichen Dateien gelöscht
+[025][FIX] Wenn ein Screenshot extern bearbeitet wird, wird er nun als MemoryBMP gespeichert
+[026][FIX] Wenn im kompletten Pfad des Cache-Verzeichnisses ein Leerzeichen vorkommt konnte der Screenshot nicht extern bearbeitet werden
+[027][UPD] Das Upload-Fenster kann nun vergrößert werden
+[028][NOT] Aufgrund unvorhergesehener Probleme basiert diese Version bereits teilweise auf ST 1.2.0.x Code!
+[029][FIX] Screenshots werden nun mit der höchsten Qualitätsstufe gespeichert
+[030][ADD] Im Uploadfenster steht nun ein Kontextmenü zur Verfügung um die Links einfacher in die Zwischenablage kopieren zu können
+[031][UPD] Interne Klassenstruktur überarbeitet
+[032][FIX] Ergebnisse des WebExchange werden nun nicht mehr in einer Datei zwischengespeichert!
+[033][UPD] Die ersten Klassen werden ab dieser Version in externe DLL,s ausgelagert (ST 1.2.0.x)
+[034][FIX] Ergebnis des Uploaders muss nun nicht mehr in einer Datei zwischengespeichert werden
+[035][FIX] Der Hotkey-Grabber hat bei allen Zuweisungen immer den Hotkey für Fullscreen vordefiniert
+[036][UPD] Für das Hotkey-Handling muss nun kein GlobalAtom mehr angelegt (und gelöscht) werden
+[037][FIX] Diverse Datums und Textgeneratoren überarbeitet
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Version:		1.1.0.16 (Beta 2)
+Releasedatum:	15. Juni 2007
+
+[001][FIX] Controls im Verlaufsfenster wurden nach Größenänderung nicht richtig positioniert
+[002][FIX] Bug in der History-Verwaltung verursachte Programmabsturz nachdem die maximale Anzahl an Screenshots in der History erreicht war
+[003][FIX] Bei einem Full-Scree.Shot wird nun auch die Taskleiste gecaptured
+[004][UPD] Menüpunkt „Ausblenden“ aus dem Traymenü entfernt da unnütz und bereits über die Eisntellungen konfigurierbar
+[005][FIX] Generelle Performance-Anpassungen etc. am Code
+[006][FIX] Mehrere kleinerer Bugs
+[007][UPD] Diverse Optische Anpassungen
+[008][ADD] Im Verlaufsfenster erscheint nun eine Meldung solange die Screenshots eingelesen werden
+[009][FIX] Das Image wird nun komplett im „Captured“-Fenster angezeigt (Ränder sind weg)
+[010][FIX] Sollte ein Screenshot zu hoch oder zu breit für den Bildschirm sein wird es automatisch maximiert
+[011][ADD] Im Bearbeitungsfenster stehen nun Scrollbars für besonders große Screenshots zur Verfügung
+[012][REM] Combobox im Bearbeitungsfenster entfernt. Der Screenshot kann nun nicht mehr gestreckt werden. Weil: Unnütz -> Die Scrollbars übernehmen diese Funktion
+[013][ADD] Im Bearbeitungsfenster stehen nun Scrollbars zur Verfügung
+[014][FIX] Der Upload über das Tray-Menü funktioniert nun für beide Varianten
+[015][FIX] Der Colorpicker funktioniert nun einwandfrei (war auf der Y-Achse diverse Pixel verschoben)
+[016][ADD] Der aktuelle Screenshot kann nun vergrößert oder verkleinert werden
+[017][ADD] Im Bearbeitungsfenster steht nun ein Button zur Verfügung über den der Screenshot weiter eingegrenzt werden kann
+[018][FIX] Der Uploadvorgang wurde mehrmals hintereinander ausgeführt.
+[019][ADD] Neue Einstellung verfügbar: Bearbeitungsfenster immer maximiert öffnen
+[020][ADD] Im Bearbeitungsfenster steht nun eine Zoomfunktion zur Verfügung
+[021][ADD] Das Auswahlfenster kann nun mit Esc geschlossen werden
+[022][ADD] In den Uploadinfos stehen nun auch vorbereitete Tags für Foren zur Verfügung
+[023][ADD] Link für die Online-Doku eingebunden
+[024][FIX] Ergebnisse des DirectUpload Uploads werden nun richtig dargestellt
+[025][ADD] Für die Screenshots können nun Qualitätseinstellungen vorgenommen werden
+[026][FIX] Ein Image wird nun immer mit der maximalen Qualität zu einem Provider hochgeladen (ausser die Qualitätseinstellung wurde angepasst!)
+[027][ADD] Im Uploadfenster steht ein Link zur Verfügung der die URL zur Imagedatei in die Zwischenablage kopiert
+[028][UPD] Der HEX-Wert des Color-Pickers wird nun nicht mehr durch ; getrennt
+[029][ADD] Es kann nun konfiguriert werden das das Uploadfenster automatisch geschlossen wir wenn der untere Link geklickt wurde
+[030][ADD] ST kann nun so konfiguriert werden das die Screenshots nicht mehr automatisch angezeigt werden sondern nur in den Verlauf hinzugefügt werden.
+[031][ADD] Das Verlaufsfenster bietet nun eine Voransicht und ist optisch etwas angepasst worden
+[032][FIX] JPG ist nun das als Standard ausgewählte Format im Speichern-Dialog des Bearbeitungsfensters
+[033][ADD] Einstellungsfenster hat nun einen weiteren Bereich (Verlaufsoptionen) mit weiteren nützlichen Einstellungsmöglichkeiten
+[034][ADD] Für das Bearbeitungsfenster kann nun ein Dateiname vorgegeben werden
+[035][ADD] Der vorgegebene Dateinamen kann auf Wunsch automatisch durchnummeriert werden
+[036][ADD] Auf Wunsch können die Screenshots auch automatisch gespeichert werden 
+[037][FIX] Updater funktioniert nun einwandfrei
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+Version:		1.1.0.0 (Beta 1)
+Releasedatum:	12. Juni 2007
+
+[001][FIX] Mehrere Dateien im Verlauf (History) verursachen nun keinen erhöhten Arbeitsspeicherbedarf mehr. Die Dateien werden nun im Cache zwischengespeichert
+[002][ADD] Der Verlauf kann im Verlaufsfenster gelöscht werden
+[003][FIX] Falls der Verlauf deaktiviert wurde werden auch keine Screenshots zwischengespeichert. Vorher wurden sie trotzdem zwischengespeichert, nur nicht angezeigt.
+[004][ADD] Wenn mit der Maus auf das Tray-Symbol geklickt wird, öffnet sich das Auswahlfenster.
+[005][ADD] Im Kontextmenü des Tray gibt’s nun den Uploader mit dem beliebige Bilddateien zu den verfügbaren Hosts hochgeladen werden können
+[006][ADD] Falls ein Hotkey nicht registriert werden konnte wird dies im Traysymbol eingeblendet
+[007][ADD] Im Trayicon-Menü steht nun eine Option „Ausblenden“ zur Verfügung. Damit kann das Tray-Symbol ausgeblendet werden
+[008][UPD] Allgemeines Update der Codes. Alte Methoden entfernt. Diverse Methoden optimiert. Oft wiederholende Stellen zusammengefasst
+[009][FIX] Screenshots werden nicht immer automatisch im Vordergrund angezeigt.
+[010][ADD] Es steht nun eine Update-Funktion zur Verfügung die automatisch benachrichtigt sobald eine neuere Version verfügbar ist.
+[011][UPD] Der Uploadvorgang kann nun abgebrochen werden.
+[012][UPD] Setting-Klasse komplett neu konzipiert und erstellt
+[013][FIX] ST kann nun auch ohne vorhandene Konfigurationsdatei gestartet werden. Sollte keine vorhanden sein, wird sie automatisch erstellt.
+[014][ADD] Im Tray-Kontextmenü werden nun Icons angezeigt
+[015][FIX] Diverse Oberflächenanpassungen. Rechtschreibfehler etc.
+[016][ADD] ST kann nun automatisch mit Windows gestartet werden.
+[017][FIX] Der Cache des ST wird nach Ende des Programms gelöscht.
+[018][FIX] Der Verlauf wird nun Fehlerfrei gelöscht.
+[019][FIX] Nachdem eine Aktion mit einem Screenshot durchgeführt wird das Fenster nun falls konfiguriert geschlossen.
+[020][FIX] Hotkey-Handling neu entwickelt
+[021][ADD] Hotkeys können nun konfiguriert werden
+[022][FIX] Einige deprecated-Methoden durch neue ersetzt.
+[023][ADD] Neu definierte Hotkeys werden zur Laufzeit übernommen
+[024][UPD] Im Verlauf werden nun auch bearbeitete Screenshots aufgeführt
+[025][FIX] Das Verlaufsfenster wird nach dem öffnen einer Datei automatisch geschlossen
+[026][FIX] Falls beim „schnellen speichern“ bereits eine Datei existiert wird gefragt ob diese überschrieben werden soll
+[027][UPD] Alte Codefragmente entfernt
+[028][ADD] Im EDITW stehen nun eigene Hotkeys zur Verfügung um auf elementare Funktionen zugreifen zu können
+[029][FIX] Memoryleak behoben
+[030][FIX] ST kann nun nur noch definitiv 1x gleichzeitig ausgeführt werden
+[031][FIX] Die Default-Werte für die Hotkeys stimmen nun
+[032][UPD] Hinweise über die GNU-Lizenz stehen nun als Link zur Verfügung. Die Textdatei wird nun nicht mehr ausgeliefert.

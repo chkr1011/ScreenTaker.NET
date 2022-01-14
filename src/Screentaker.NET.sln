@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ST_API", "ST_API\ST_API.csproj", "{CE96F2FC-0110-43EA-966B-533C3574B021}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Win32API", "Win32\Win32API.csproj", "{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uploader", "Uploader\Uploader.csproj", "{6A7756D3-D30C-4533-A3FA-711734FC6520}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Screentaker.NET", "Screentaker.NET\Screentaker.NET.csproj", "{86BDB1FE-2C3E-447A-B117-C0EE7B8432AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{F36244F3-335A-470B-A883-857601FCA509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PropertyFile", "PropertyFile\PropertyFile.csproj", "{A2922C33-0334-4B18-AAE8-48C535C930DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE96F2FC-0110-43EA-966B-533C3574B021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE96F2FC-0110-43EA-966B-533C3574B021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE96F2FC-0110-43EA-966B-533C3574B021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE96F2FC-0110-43EA-966B-533C3574B021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3648B9E-3CA9-47FB-9B73-492CB8367B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A7756D3-D30C-4533-A3FA-711734FC6520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A7756D3-D30C-4533-A3FA-711734FC6520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A7756D3-D30C-4533-A3FA-711734FC6520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A7756D3-D30C-4533-A3FA-711734FC6520}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86BDB1FE-2C3E-447A-B117-C0EE7B8432AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86BDB1FE-2C3E-447A-B117-C0EE7B8432AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86BDB1FE-2C3E-447A-B117-C0EE7B8432AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86BDB1FE-2C3E-447A-B117-C0EE7B8432AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36244F3-335A-470B-A883-857601FCA509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36244F3-335A-470B-A883-857601FCA509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36244F3-335A-470B-A883-857601FCA509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36244F3-335A-470B-A883-857601FCA509}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2922C33-0334-4B18-AAE8-48C535C930DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2922C33-0334-4B18-AAE8-48C535C930DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2922C33-0334-4B18-AAE8-48C535C930DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2922C33-0334-4B18-AAE8-48C535C930DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D85B6AA7-7D73-4F6C-9D08-90B37512C71F}
+	EndGlobalSection
+EndGlobal
